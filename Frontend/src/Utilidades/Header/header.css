@@ -1,0 +1,122 @@
+*{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    margin-left: 30%;
+}
+.header-menu{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    font-weight: 600;
+    list-style: none; 
+}
+
+.header-menu a{
+    color: #000000;
+}
+
+button{
+    background: #007636;
+    border-radius: 30px;
+    padding: 16px 32px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+button:hover{
+    background: #00a048;
+}
+button a{
+   color: #ffffff;
+}
+
+@media (max-width:1550px) {
+    .header-menu{
+        display: flex;
+        gap: 25px;
+        font-weight: 600;
+        list-style: none; 
+        font-size: 15px;
+    }
+    nav{
+        margin-left: 20%;
+    }
+    button{
+        background: #007636;
+        border-radius: 30px;
+        padding: 12px 24px;
+        border: none;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    @media (max-width:1400px) {
+        .header-menu{
+            display: flex;
+            gap: 25px;
+            font-weight: 600;
+            list-style: none; 
+            font-size: 13px;
+        }
+        nav{
+            margin-left: 10%;
+        }
+        button{
+            background: #007636;
+            border-radius: 30px;
+            padding: 12px 24px;
+            border: none;
+            font-size: 13px;
+            cursor: pointer;
+        }
+    }
+    @media (max-width:1050px) {
+        .header-menu{
+            display: flex;
+            gap: 15px;
+            font-weight: 600;
+            list-style: none; 
+            font-size: 11px;
+        }
+        nav{
+            margin-left: 5%;
+        }
+        button{
+            background: #007636;
+            border-radius: 30px;
+            padding: 10px 22px;
+            border: none;
+            font-size: 11px;
+            cursor: pointer;
+        }
+    }
+
+    @media (max-width:850px) {
+        .header-menu{
+            display: flex;
+            gap: 15px;
+            font-weight: 600;
+            list-style: none; 
+            font-size: 10px;
+            justify-content: center;
+            align-items: center;
+        }
+        nav{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            padding-right: 5%;
+        }
+        button{
+            background: #007636;
+            border-radius: 30px;
+            padding: 10px 35px;
+            border: none;
+            font-size: 10px;
+            cursor: pointer;
+            margin: 0 auto;
+        }
+    }
+}

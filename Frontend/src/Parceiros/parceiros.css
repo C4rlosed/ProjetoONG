@@ -1,0 +1,248 @@
+.parceiro-bg {
+	background-image: url(../Utilidades/Imagem/parceiros/fundoParceria.png);
+	background-repeat: no-repeat;
+	background-position: 50% bottom;
+	background-size: cover;
+	height: 900px;
+}
+
+.parceiro-banner {
+	margin: 0 auto;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 9%;
+}
+
+.titulo-parceiros{
+	text-align: center;
+	font-size: 34px;
+	position: relative;
+	bottom: 100px;
+}
+
+.parceiro-banner>h1 {
+	font-size: 40px;
+	margin: 0;
+}
+
+.parceiro-banner>p {
+	font-weight: 300;
+	font-size: 45px;
+	margin: 0;
+}
+
+#sub-titulo{
+	background-color: #F0D32C;
+	height: 8px;
+	width: 350px;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+	bottom: 100px;
+}
+#sub-titulo-2{
+	background-color: #F0D32C;
+	height: 8px;
+	width: 350px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.parceiro-conteudo {
+	background-color: #030303;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 550px;
+	/* top, right, bottom, left */
+	padding: 0 15% 0 15%;
+	margin: 10% 0 10% 0;
+	gap: 50px;
+	color: #ffffff;
+	text-align: center;
+}
+
+.parceiro-text>p{
+	font-size: 18px;
+	margin: 30px 50px 0 50px;
+}
+.parceiro-text>h2{
+	font-size: 30px;
+}
+
+.button-parceiro {
+	margin-top: 30px;
+	border-radius: 30px;
+	font-weight: 600;
+	color: #030303;
+	width: 180px;
+	font-size: 15px;
+	text-align: center;
+	background-color: #F0D32C;
+}
+.button-parceiro:hover{
+	background-color: #f5e58b;
+}
+
+.logos-parceiros{
+	margin: 5% 0 10% 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo-parceiros-img{
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logos{
+	object-fit: contain;
+	height: 100px;
+	/* top, right, bottom, left */
+	padding: 0 20px 0 20px;
+}
+
+.carrossel-parceiros{
+    margin: 0 auto;
+}
+.slide-item{
+    width: 100%;
+    height: 325px;
+    object-fit: cover;
+    object-position: center center;
+    filter:brightness(50%);
+}
+
+@media (max-width:1400px) {
+    .parceiro-banner {
+		margin: 0 auto;
+		text-align: center;
+		padding-top: 15%;
+	}
+	.parceiro-text>p{
+		font-size: 18px;
+		margin: 30px 40px 0 40px;
+	}
+	.parceiro-text>h2{
+		font-size: 30px;
+	}
+	.button-parceiro {
+		margin-top: 20px;
+		width: 180px;
+		font-size: 15px;
+	}
+    @media (max-width:1050px) {
+        .parceiro-banner {
+			margin: 0 auto;
+			text-align: center;
+			padding-top: 20%;
+		}
+		.parceiro-banner>h1 {
+			font-size: 35px;
+		}
+		.parceiro-banner>p {
+			font-size: 40px;
+		}
+		.parceiro-text>p{
+			font-size: 15px;
+			margin: 30px 40px 0 40px;
+		}
+		.parceiro-text>h2{
+			font-size: 22px;
+		}
+		.button-parceiro {
+			margin-top: 20px;
+			width: 150px;
+			font-size: 13px;
+		}
+		.logo-parceiros-img{
+			margin: 0 auto;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+		.logos-parceiros{
+			margin: 0 0 20% 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.logos{
+			object-fit: contain;
+			height: 120px;
+			/* top, right, bottom, left */
+			padding-top: 10%;
+		}
+		.parceiro-conteudo>img{
+			height: 340px;
+			width: 340px;
+		}
+    }
+
+    @media (max-width:850px) {
+        .parceiro-banner {
+			margin: 0 auto;
+			text-align: center;
+			padding-top: 30%;
+		}
+		.parceiro-banner>h1 {
+			font-size: 25px;
+		}
+		.parceiro-banner>p {
+			font-size: 28px;
+		}
+		.parceiro-text>p{
+			font-size: 13px;
+			margin: 30px 40px 0 40px;
+		}
+		.parceiro-text>h2{
+			font-size: 20px;
+		}
+		.button-parceiro {
+			margin-top: 20px;
+			width: 150px;
+			font-size: 13px;
+		}
+		.logos-parceiros{
+			margin: 0 0 20% 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.logos{
+			object-fit: contain;
+			height: 110px;
+			/* top, right, bottom, left */
+			padding-top: 10%;
+		}
+		.parceiro-conteudo>img{
+			height: 320px;
+			width: 320px;
+		}
+    }
+	@media (max-width: 710px) {
+		.parceiro-conteudo {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			height: 800px;
+			/* top, right, bottom, left */
+			padding: 0 15% 0 15%;
+			margin: 10% 0 10% 0;
+			gap: 30px;
+			text-align: center;
+		}
+		.parceiro-text>p{
+			font-size: 15px;
+			margin: 30px 40px 0 40px;
+		}
+		.parceiro-text>h2{
+			font-size: 20px;
+		}
+	}
+}
