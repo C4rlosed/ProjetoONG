@@ -1,4 +1,4 @@
-<h1>Projeto Final Web Site ONG - Instituto Jardim Peri</h1>>
+<h1>Projeto Final Web Site ONG - Instituto Jardim Peri</h1>
 
 <h2>Professor responsável:</h2>
 <p>David de Oliveira Lemes </p>
