@@ -15,8 +15,8 @@
 
 __________________________________________________
 
-<h3>IDENTIFICAÇÃO DO CENÁRIO DE INTERVENÇÃO E HIPÓTESES DE SOLUÇÃO</h3>
-<p>Local (cenário) previsto para a implementação do projeto:</p>
+<h2>IDENTIFICAÇÃO DO CENÁRIO DE INTERVENÇÃO E HIPÓTESES DE SOLUÇÃO</h2>
+<h3>Local (cenário) previsto para a implementação do projeto:</h3>
 
 <p>O Instituto Jardim Peri é uma organização que tem como objetivo fornecer acesso facilitado à educação para a comunidade, e além disso, promover e ajudar as pessoas mais carentes terem uma qualidade de vida melhor, por meio de cestas básicas, doações, etc.</p>
 
